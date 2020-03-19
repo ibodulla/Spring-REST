@@ -23,18 +23,21 @@ public class BootStrapData implements CommandLineRunner{
         System.out.println("Loading Customer Data");
 
         Customer c1 = new Customer();
+        c1.setId(1L);
         c1.setFirstname("Brad");
         c1.setLastname("Pitt");
         customerRepository.save(c1);
 
         Customer c2 = new Customer();
-        c1.setFirstname("Leonardo");
-        c1.setLastname("Dicaprio");
+        c2.setId(2L);
+        c2.setFirstname("Leonardo");
+        c2.setLastname("Dicaprio");
         customerRepository.save(c2);
 
         Customer c3 = new Customer();
-        c1.setFirstname("Tony");
-        c1.setLastname("Stark");
+        c3.setId(3L);
+        c3.setFirstname("Ibodulla");
+        c3.setLastname("Ibodullaev");
         customerRepository.save(c3);
 
         System.out.println("Customers Saved: " + customerRepository.count());

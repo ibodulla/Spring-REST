@@ -20,4 +20,6 @@ public class Customer {
     private long id;
     private String firstname;
     private String lastname;
+
+
 }

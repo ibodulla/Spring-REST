@@ -5,7 +5,6 @@ import com.springframework.services.CustomerService;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
 
-import java.text.CharacterIterator;
 import java.util.List;
 
 /**
